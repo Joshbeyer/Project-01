@@ -1,0 +1,166 @@
+doctype html
+html(lang='en')
+	head
+		meta(charset='UTF-8')
+		meta(name='viewport', content='width=device-width, initial-scale=1.0')
+		meta(http-equiv='X-UA-Compatible', content='ie=edge')
+		link(href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900", rel="stylesheet")
+		link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css')
+		link(rel='stylesheet', href='css/main.css')
+		title Title
+	body
+		//- include header/header
+		
+		
+
+		//- //- Header
+		//- header#header.alt
+		//- 	a(href="#").logo Brand
+		//- 	nav
+		//- 		a(href="#menu").menu-btn
+		//- 			| Menu
+		//- 			.fa.fa-bars
+		
+		//- //- Menu
+		//- nav#menu
+		//- 	ul.links
+		//- 		li
+		//- 			a(href="#") Page
+		//- 		li
+		//- 			a(href="#") Page
+		//- 		li
+		//- 			a(href="#") Page
+		//- 		li
+		//- 			a(href="#") Page
+		//- 	ul#actions
+		//- 		li
+		//- 			a.button.special Get Started
+		//- 		li
+		//- 			a.button Login
+		
+		//- Banner
+		header
+			h1  A big heading here
+			h3  A smaller but still cool heading here
+		
+		//- //- Main
+		//- #main
+		section#intro
+			//- Wrapper
+			.wrapper
+				.title First section
+				h1  Maybe some text here saying something ...
+				span.major-heading  I am big and important so look at me in awe
+				p A whole bunch of words on the screen i don't feel like typing but i have to do it anyway so people can see what it looks like! Shit that wasn't long enough so here is some more.
+				a.scrolldown A Button!
+
+		section#details
+			.wrapper
+				.title Second Section
+				img(src="img/pic01.jpg", alt="")
+				h1  This girl is looking into your soul!
+				span.sub-heading  Im kinda hard to read.. should be a little bit darker
+				
+				.detail
+					//- icon
+					h2.chat  This is an item.
+					p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum possimus sed totam, nisi laborum.
+				
+				.detail
+					//- icon
+					h2.refresh  And so is this!
+					p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum possimus sed totam, nisi laborum.
+			
+				.detail
+					//- icon
+					h2.image  And this!
+					p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum possimus sed totam, nisi laborum.
+			
+				.detail
+					//- icon
+					h2.settings  Me to friend!
+					p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum possimus sed totam, nisi laborum.
+			
+				.detail
+					//- icon
+					h2.settings  Don't forget about me!
+					p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum possimus sed totam, nisi laborum.
+			
+				.detail
+					//- icon
+					h2.image  They wont larry..
+					p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum possimus sed totam, nisi laborum.
+			
+				ul
+					li.call-to-action
+						a Give me money
+					li
+						a Read about money
+			
+
+		section#endorsements
+			.wrapper
+				.title Third section
+				.card
+					img(src="img/img4.jpg", alt="")
+					h3 Confused
+					p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste fugiat, tempore reprehenderit.
+					a Click me
+				.card
+					img(src="img/img2.jpg", alt="")
+					h3  Lost &amp; confused
+					p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste fugiat, tempore reprehenderit.
+					a Click me
+				.card
+					img(src="img/img3.jpg", alt="")
+					h3  A confused group
+					p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste fugiat, tempore reprehenderit.
+					a Click me
+				
+			
+		section#contact
+			.wrapper
+				.title Last but not least
+				.message
+					h1  Annoy me with your emails
+					p Send me a message, i probably wont read it. But go ahead and send it anyway. This isn't real, its all in your head. Or in my head? I am you? Are you me? 
+				form(action="actionscript.php" method="post")
+					input(type="text", placeholder="Name")
+					input(type="email", placeholder="Email")
+					textarea(name="message", cols="30", rows="10")
+					.group
+						input(type="submit", value="Send")
+						input(type="reset", value="Reset")
+				.contact-info
+					.info-item
+						//- icon
+						h2 Address
+						p Some where along the rainbow,
+						p Way up high, Indiana 
+					.info-item
+						//- icon
+						h2 Social Links
+						p Twitta!
+						p Facebooka!
+						p LinkedIna!
+					.info-item
+						//- icon
+						h2 Email
+						p fakeEmail@never.com
+					.info-item
+						//- icon
+						h2 Phone
+						p (618)-end-it-already
+
+
+
+
+		footer
+			p 
+				| &copy; 2017 - Designed & Coded with 
+				//- i.fa.fa-heart(aria-hidden="true") 
+				//- |  by Josh Beyer
+
+
+		script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js')
+		script(src='js/header.js')
